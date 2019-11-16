@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WalMart</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<script src="https://kit.fontawesome.com/db033251d5.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="walmartstyle.css">
+	</head>
+	<body>
+		<!-- Navbar Menu Starts -->
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark-blue p-0">
+			<div class="container pl-2">
+			    <ul class="navbar-nav mr-auto d-none d-sm-block list-inline">
+			        <li class="nav-item list-inline-item ">
+			           <a class="nav-link" href="#">Home</a>
+			        </li>
+			        <li class="nav-item list-inline-item">
+			            <a class="nav-link" href="#">Delivery</a>
+			        </li>
+			        <li class="nav-item list-inline-item">
+			            <a class="nav-link" href="#">Payment</a>
+			        </li>
+			    </ul>
+			    <ul class="navbar-nav list-inline d-inline order-md-12">
+			        <li class="nav-item list-inline-item pl-2">
+			            <a class="nav-link" href="#">Call: +99812345678</a>
+			        </li> 
+					<li class="nav-item dropdown list-inline-item pl-2">
+					    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">English
+					    </a>
+					    <div class="dropdown-menu dropdown-menu-right">
+							<a class="dropdown-item" href="#">Tamil</a>
+							<a class="dropdown-item" href="#">Malayalam</a>
+							<a class="dropdown-item" href="#">Telungu</a>
+						</div>
+				    </li>
+			    </ul>
+			</div>
+		</nav>
+		<!-- Navbar Menu Ends-->
+		<div class='container'><!--  Head starts-->
+			<div class="mt-4">
+				<div class="row">
+					<div class="col-md-2 mt-lg-0 mb-4 mb-md-0 mb-sm-4">
+						<img src="img/8_Walmart_400.png" alt="logo" height="40px" width="110px">
+					</div>
+					<div class="col-md-6 mt-lg-0 mb-4 mb-md-0 mb-sm-4">
+						<form class="input-group">
+							<input type="text" class="form-control" placeholder="Search">
+							<div class="input-group-append">
+							   	<button class="btn btn-dark-blue" type="submit">
+							   		<i class="fas fa-search" aria-hidden="true"></i>
+							   	</button>  
+							</div>
+						</form>
+					</div>
+					<div class='col-md-1'></div>
+					<div class="col-md-3 sm-12 d-flex align-items-center">
+						<div style="font-size: 0.5rem;" fontclass="d-flex align-items-start" class="mb-md-2">
+							<span class="border text-secondary rounded-circle p-md-3 p-3 mr-md-3 mr-3 pt-4 pt-md-4">
+								<i class="fas fa-shopping-cart fa-2x cart-design text-secondary " aria-hidden="true"></i>
+							</span>
+							<span class="border text-secondary rounded-circle p-md-3 p-3 mr-md-2 mr-2 pt-4 pt-md-4">
+								<i class="fas fa-user user-design fa-2x  text-secondary" aria-hidden="true"></i>
+							</span>
+						</div>
+						<div class="pb-md-2">
+							<span class="text-secondary">Welcome!</span><br>
+							<span class="fs-14 text-dark">Sign in | Register</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--  head Ends-->
+		<div><hr></div>
+		<div><!-- Category-->
+			<div class="container">
+				<nav class="navbar navbar-expand-md navbar-light p-0 ">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    				<i class="fa fa-bars" aria-hidden="true"></i>
+	  				</button>
+	  				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					    <ul class="navbar-nav ">
+					    	<li class=" nav-item d-none d-md-block pt-md-2">
+					    		<i class="fa fa-bars" aria-hidden="true"></i>
+					    		<a class="pl-md-2 font-weight-bold text-body fs-16" href="#">All Category</a>
+					    	</li>
+					      	<li class="nav-item ">
+					       	 	<a class="nav-link  pl-md-3 font-weight-bold text-body fs-16" href="#">Fashion</a>
+					      	</li>
+					      	<li class="nav-item">
+					       		 <a class="nav-link  pl-md-3 font-weight-bold text-body fs-16" href="#">Supermarket</a>
+					      	</li>
+					      	<li class="nav-item ">
+					       	 	<a class="nav-link pl-md-3 font-weight-bold text-body fs-16" href="#">Electronics</a>
+					      	</li>
+					      	<li class="nav-item">
+					       		 <a class="nav-link  pl-md-3 font-weight-bold text-body fs-16" href="#">Baby & Toys</a>
+					      	</li>
+					      	<li class="nav-item ">
+					       	 	<a class="nav-link  pl-md-3 font-weight-bold text-body fs-16" href="#">Fitness sport</a>
+					      	</li>
+					      	<li class="nav-item">
+					       		 <a class="nav-link pl-md-3 font-weight-bold text-body fs-16" href="#">Clothing</a>
+					      	</li>
+					      	<li class="nav-item">
+					       		 <a class="nav-link pl-md-3 font-weight-bold text-body fs-16" href="#">Furnitures</a>
+					      	</li>
+					  	</ul>
+					</div>
+				</nav>
+			</div>
+		</div><!-- Category End-->
+		<div><hr></div>
+		<div class="container"><!-- Banner Section starts-->
+			<div class="row">
+				<div class="col-lg-12 md-12 sm-12 mb-md-4 mb-4 mb-sm-4">
+					<img src="img/1.jpg" alt='banner' class="img-fluid rounded">
+				</div>
+			</div>
+		</div><!-- Banner Section Ends-->
+		<div class="container"><!--Delivery Contents Start-->
+			<div class="row">
+				<div class="container-fluid">
+					<div class="col-md-12 border rounded mb-md-4">
+						<div class="row">
+							<div style="font-size: 0.5rem;" class="col-md-4 pb-md-3 p-md-4 pt-md-3 pb-sm-3 pt-sm-3 pt-3 pb-3">
+								<i class="fas fa-truck fa-3x fc-dark-blue pb-md-2 pb-sm-3 pb-3" aria-hidden="true"></i>
+								<b><p class="mb-md-1 fs-16">Fast Delivery</p></b>
+								<span class="fs-12 text-body">Dolor sit amet, consectetur adipisicing elit, sed do  eiusmod  tempor incididunt ut labore</span>
+							</div>
+							<div style="font-size: 0.5rem;" class="col-md-4 pb-md-3 pt-md-3 pb-sm-3 pt-sm-3 pt-3 pb-3">
+								<i class="fas fa-university fa-3x  fc-dark-blue pb-md-2 pb-sm-3 pb-3" aria-hidden="true"></i>
+								<b><p class="mb-md-1 fs-16">Creative Strategy</p></b>
+								<span class="fs-12 text-body">Loreum Ipasium Dolor sit amet elit, sed do  eiusmod  tempor incididunt ut labore</span>
+							</div>
+							<div style="font-size: 0.5rem;" class="col-md-4 pb-md-3 pt-md-3 pb-sm-3 pt-sm-3 pt-3 pb-3">
+								<i class="fas fa-lock fa-3x fc-dark-blue pb-md-2 pb-sm-3 pb-3" aria-hidden="true"></i>
+								<b><p class="mb-md-1 fs-16">High secured</p></b>
+								<span class="fs-12 text-body">Loreum Ipasium Dolor sit amet elit, sed do  eiusmod  tempor incididunt ut laboree</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--Delivery Contents Ends-->
+		<div class="container"><!--Product Session first start -->
+			<div class="row">
+				<div class="col-md-12 mt-4 mt-sm-4 mb-3 mb-sm-3 mb-md-0 mt-md-1 mb-md-3">
+					<b class="fs-22">Popular products</b>
+				</div>
+			</div>
+			<div class="card-deck">
+				<div class="card ">
+					<img src="img/1(1).jpg" class="card-img-top" alt="blue-tshirt">
+					<div class="card-body">
+						<span class="text-body fs-12 text-body">Just Another Product Name</span>
+						<div class="d-flex mt-1 align-items-center">
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12 " aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12 " aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12 " aria-hidden="true"></i>
+							<i class="fas fa-star fc-grey fs-12 " aria-hidden="true"></i>
+							<span class=" text-secondary fs-12 pl-md-2 pl-2">39 review</span>
+						</div>
+						<b class="fs-12">$179.00</b>
+					</div>
+				</div>
+				<div class="card">
+					<img src="img/2.jpg" class="card-img-top" alt="brown-tshirt">
+					<div class="card-body">
+						<span class="text-body  fs-12 text-body">Some item Never Here</span>
+						<div class="d-flex align-items-center mt-1 ">
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star fc-grey fs-12" aria-hidden="true"></i>
+							<span class=" text-secondary fs-12 pl-2">34 review</span>
+						</div>
+						<b class="fs-12">$280.00</b>
+					</div>
+				</div>
+				<div class="card ">
+					<img src="img/3.jpg" class="card-img-top" alt="jean-short">
+					<div class="card-body">
+						<span class="text-body  fs-12 text-body">Great item Never Here</span>
+						<div class="d-flex align-items-center mt-1">
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star fc-grey fs-12" aria-hidden="true"></i>
+							<span class=" text-secondary fs-12 pl-2">34 review</span>
+						</div>
+						<b class="fs-12">$56.00</b>
+					</div>					    
+				</div>
+				<div class="card">
+					<img src="img/4.jpg" class="card-img-top" alt="blue-bag">
+					<div class="card-body">
+						<span class="text-body  fs-12 text-body">Just Anothe Product Name</span>
+						<div class="d-flex align-items-center mt-1">
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star fc-grey fs-12" aria-hidden="true"></i>
+							<span class=" text-secondary fs-12 pl-2">34 review</span>
+						</div>
+							<b class="fs-12">$179.00</b>
+					</div>					   
+				</div>
+			</div>
+		</div>
+		</div><!--Product Session first Ends -->
+		<div class="container"><!--New Arrived Session start -->
+			<div class="row">
+				<div class="col-md-12 mt-4 mt-sm-4 mb-3 mb-sm-3 mb-md-0 mt-md-4 mb-md-3">
+					<b class="fs-22">New Arrived</b>
+				</div>
+			</div>
+			<div class="card-deck">
+				<div class="card">
+					 <img src="img/5.jpg" class="card-img-top" alt="blue-tshirt">
+					<div class="card-body">
+						<span class="text-body  fs-12 text-body">Just Another Product Name</span>
+						<div class="d-flex align-items-center mt-1">
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star fc-grey fs-12" aria-hidden="true"></i>
+							<span class=" text-secondary fs-12 pl-2">34 review</span>
+						</div>
+						<b class="fs-12">$179.00</b>
+					</div>
+				</div>
+				<div class="card">
+					<img src="img/6.jpg" class="card-img-top" alt="brown-tshirt">
+					<div class="card-body">
+						<span class="text-body  fs-12 text-body">Some item Never Here</span>
+						<div class="d-flex align-items-center mt-1">
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star fc-grey fs-12" aria-hidden="true"></i>
+							<span class=" text-secondary fs-12 pl-2">34 review</span>
+						</div>
+						<b class="fs-12">$280.00</b>
+					</div>
+				</div>
+				<div class="card ">
+					<img src="img/7.jpg" class="card-img-top" alt="jean-short">
+					<div class="card-body">
+						<span class="text-body  fs-12 text-body">Great item Never Here</span>
+						<div  class="d-flex align-items-center mt-1">
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star fc-grey fs-12" aria-hidden="true"></i>
+							<span class=" text-secondary fs-12 pl-2">34 review</span>
+						</div>
+						<b class="fs-12">$56.00</b>
+					</div>					    
+				</div>
+				<div class="card">
+					<img src="img/9.jpg" class="card-img-top" alt="blue-bag">
+					<div class="card-body">
+						<span class="text-body  fs-12 text-body">Just Anothe Product Name</span>
+						<div  class="d-flex align-items-center mt-1">
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star fc-grey fs-12" aria-hidden="true"></i>
+							<span class=" text-secondary fs-12 pl-2">34 review</span>
+						</div>
+							<b class="fs-12">$179.00</b>
+					</div>					   
+				</div>
+			</div>
+		</div><!--New Arrived Session Ends -->
+		<div class="container"><!--Recommended Session first start -->
+			<div class="row">
+				<div class="col-md-10 col-8 mt-4 mt-sm-4 mb-3 mb-sm-3 mb-md-0 mt-md-4 mb-md-3">
+					<b class="fs-22">Recommended</b>
+				</div>
+				<div class="col-md-2 col-4 text-right mt-4">
+					<button type="button" class="btn btn-outline-primary">See all</button>
+				</div>
+			</div>
+			<div class="card-deck">
+				<div class="card">
+					 <img src="img/1(1).jpg" class="card-img-top" alt="blue-tshirt">
+					<div class="card-body">
+						<span class="text-body  fs-12 text-body">Just Another Product Name</span>
+						<div  class="d-flex align-items-center mt-1">
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star fc-grey fs-12" aria-hidden="true"></i>
+							<span class=" text-secondary fs-12 pl-2">34 review</span>
+						</div>
+						<b class="fs-12">$179.00</b>
+					</div>
+				</div>
+				<div class="card">
+					<img src="img/2.jpg" class="card-img-top" alt="brown-tshirt">
+					<div class="card-body">
+						<span class="text-body  fs-12 text-body">Some item Never Here</span>
+						<div  class="d-flex align-items-center mt-1">
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star fc-grey fs-12" aria-hidden="true"></i>
+							<span class=" text-secondary fs-12 pl-2">34 review</span>
+						</div>
+						<b class="fs-12">$280.00</b>
+					</div>
+				</div>
+				<div class="card ">
+					<img src="img/3.jpg" class="card-img-top" alt="jean-short">
+					<div class="card-body">
+						<span class="text-body  fs-12 text-body">Great item Never Here</span>
+						<div class="d-flex align-items-center mt-1">
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star fc-grey fs-12" aria-hidden="true"></i>
+							<span class=" text-secondary fs-12 pl-2">34 review</span>
+						</div>
+						<b class="fs-12">$56.00</b>
+					</div>					    
+				</div>
+				<div class="card">
+					<img src="img/4.jpg" class="card-img-top" alt="blue-bag">
+					<div class="card-body">
+						<span class="text-body  fs-12 text-body">Just Anothe Product Name</span>
+						<div class="d-flex align-items-center mt-1">
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star text-warning fs-12" aria-hidden="true"></i>
+							<i class="fas fa-star fc-grey fs-12" aria-hidden="true"></i>
+							<span class=" text-secondary fs-12 pl-2">34 review</span>
+						</div>
+							<b class="fs-12">$179.00</b>
+					</div>					   
+				</div>
+			</div>
+		</div>
+		</div><!--Recommended Session first Ends -->
+		<div class="bg-light mt-md-4"><!--Brand Section Starts-->
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 pt-md-4 pb-md-4 pt-4 pb-3">
+						<b class="fs-22">Our Brands</b>
+					</div>
+				</div>
+				<div class="row pb-md-4 pb-3">
+					<div class="col-lg-2 col-6 pb-3">
+						<div class="card">
+			 				<div class="p-md-3 text-center p-3 p-sm-3">
+								<img src="img/logo1.png" class="card-img-top" alt="microsoft">
+								<hr class="mt-md-1 mb-md-2 mt-1 mb-2">
+								<span class="content text-dark fs-14">36 products</span>
+							</div>
+			 			</div>
+					</div>
+					<div class="col-lg-2 col-6 pb-3">
+						<div class="card">
+			 				<div class="p-md-3 text-center p-3 p-sm-3">
+								<img src="img/logo2.png" class="card-img-top" alt="microsoft">
+								<hr class="mt-md-1 mb-md-2 mt-1 mb-2">
+								<span class="content text-dark fs-14">980 products</span>
+							</div>
+			 			</div>
+					</div>
+					<div class="col-lg-2 col-6 pb-3">
+						<div class="card">
+			 				<div class="p-md-3 text-center p-3 p-sm-3">
+								<img src="img/logo3.png" class="card-img-top" alt="microsoft">
+								<hr class="mt-md-1 mb-md-2 mt-1 mb-2">
+								<span class="content text-dark fs-14">25 products</span>
+							</div>
+			 			</div>
+					</div>
+					<div class="col-lg-2 col-6 pb-3">
+						<div class="card">
+			 				<div class="p-md-3 text-center p-3 p-sm-3">
+								<img src="img/logo4.png" class="card-img-top" alt="microsoft">
+								<hr class="mt-md-1 mb-md-2 mt-1 mb-2">
+								<span class="content text-dark fs-14">72 products</span>
+							</div>
+			 			</div>
+					</div>
+					<div class="col-lg-2 col-6 pb-3">
+						<div class="card">
+			 				<div class="p-md-3 text-center p-3 p-sm-3">
+								<img src="img/logo5.png" class="card-img-top" alt="microsoft">
+								<hr class="mt-md-1 mb-md-2 mt-1 mb-2">
+								<span class="content text-dark fs-14">41 products</span>
+							</div>
+			 			</div>
+					</div>
+					<div class="col-lg-2 col-6 pb-3">
+						<div class="card">
+			 				<div class="p-md-3 text-center p-3 p-sm-3">
+								<img src="img/logo2.png" class="card-img-top" alt="microsoft">
+								<hr class="mt-md-1 mb-md-2 mt-1 mb-2">
+								<span class="content text-dark fs-14">12 products</span>
+							</div>
+			 			</div>
+					</div>
+				</div>
+			</div><!--Brand Session Ends-->
+		</div>
+		<div class="container"><!-- App store starts-->
+			<div class="row">
+				<div class="col-md-12 pb-md-2 mt-md-4 mt-4 mb-md-1 mb-3">
+					<b class="text-dark fs-22">Download app demo text</b>
+				</div>
+			</div>
+			<div class="row mb-md-4">
+				<div class="col-md-2 col-sm-6 col-5 pr-1">
+					<img src="img/appstore.png" class=" img-fluid">
+					
+				</div>
+				<div class="col-md-2 col-sm-6 col-5 pl-1">
+					<img src="img/appstore.png" class="img-fluid">
+					
+				</div>
+			</div>
+		</div><!-- App store starts-->
+		<div class="bg-light mt-md-0 mt-4"><!---Footer Session Start-->
+			<div class="container">
+				<div class="row pt-4">
+					<div class="col">
+						<b class="fs-14 ">Brands</b>
+						<ul class="list-unstyled mt-md-2">
+							<li><a class="text-dark fs-12">Adidas</a></li>
+							<li><a class="text-dark fs-12">Puma</a></li>
+							<li><a class="text-dark fs-12">Reebok</a></li>
+							<li><a class="text-dark fs-12">Nike</a></li>
+						</ul>
+					</div>
+					<div class="col">
+						<b class="fs-14">Company</b>
+						<ul class="list-unstyled mt-md-2">
+							<li><a class="text-dark fs-12">About us</a></li>
+							<li><a class="text-dark fs-12">Career</a></li>
+							<li><a class="text-dark fs-12">Find a store</a></li>
+							<li><a class="text-dark fs-12">Rules and terms</a></li>
+							<li><a class="text-dark fs-12">Sitemap</a></li>
+						</ul>
+					</div>
+					<div class="w-100 d-md-none"></div>
+					<div class="col">
+						<b class="fs-14">Help</b>
+						<ul class="list-unstyled mt-md-2">
+							<li><a class="text-dark fs-12">Contact us</a></li>
+							<li><a class="text-dark fs-12">Money refund</a></li>
+							<li><a class="text-dark fs-12">Order status</a></li>
+							<li><a class="text-dark fs-12">Shipping info</a></li>
+							<li><a class="text-dark fs-12">Open dispute</a></li>
+						</ul>
+					</div>
+					<div class="col">
+						<b class="fs-14">Account</b>
+						<ul class="list-unstyled mt-md-2">
+							<li><a class="text-dark fs-12">User Login</a></li>
+							<li><a class="text-dark fs-12">User register</a></li>
+							<li><a class="text-dark fs-12">Account Setting</a></li>
+							<li><a class="text-dark fs-12">My Orders</a></li>
+						</ul>
+					</div>
+					<div class="w-100 d-md-none"></div>
+					<div class="col">
+						<b class="fs-14">Social</b>
+						<ul class="list-unstyled mt-md-2">
+							<li>
+								<i class="fab fa-facebook text-dark"></i>
+								<a class="text-dark fs-12">Facebook</a>
+							</li>
+							<li>
+								<i class="fab fa-twitter text-dark"></i>
+								<a class="text-dark fs-12">User register</a>
+							</li>
+							<li>
+								<i class="fab fa-instagram text-dark"></i>
+								<a class="text-dark fs-12">Account Setting</a>
+							</li>
+							<li>
+								<i class="fab fa-youtube text-dark"></i>
+								<a class="text-dark fs-12">My Orders</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<p class="fs-12 text-secondary">&copy; 2019 Company name</p>
+					</div>
+					<div class="col-md-6 d-none d-sm-block">
+						<p class="fs-12 text-dark">
+							<span class="pr-2">info@pixsellz.io</span>
+							<span class="pr-2">+879-332-9375</span>
+							<span>Street name 123, Avanue abc</span>
+						</p>
+					</div>
+					<div style="font-size: 0.5rem;" class="col-md-2 d-none d-sm-block float-md-right text-right">
+						<i class="fab fa-cc-visa text-secondary fa-3x"></i>
+						<i class="fab fa-cc-paypal text-secondary fa-3x"></i>
+						<i class="fab fa-cc-mastercard text-secondary fa-3x"></i>
+					</div>
+				</div>
+			</div>
+		</div><!---Footer Session Ends-->
+	</body>
+</html>

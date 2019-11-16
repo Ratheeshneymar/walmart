@@ -1,0 +1,37 @@
+@import url("https://rsms.me/inter/inter.css");
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: "Inter", Arial, "Helvetica Neue", "Segoe UI", sans-serif,
+	 "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.bg-dark-blue{
+	background-color: #3167eb;
+}
+.btn-dark-blue{
+	background-color: #3167eb !important;
+	color: white !important;
+}
+.fs-16{
+	font-size: 16px;
+}
+.fs-14{
+	font-size: 14px;
+}
+.fs-22{
+	font-size: 22px;
+}
+.fs-12{
+	font-size: 12px;
+}
+.card:hover{
+	box-shadow: 1px 10px 12px 1px #cdcdcd;
+}
+.fc-grey{
+	color: #cccccc;
+}
+.fc-dark-blue{
+	color: #3167eb;
+}
